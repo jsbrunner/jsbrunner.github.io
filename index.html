@@ -35,12 +35,21 @@
 			
         }
 		
-		header img {
-			max-width: 100%;
+		.header-image {
+			max-width: 300px;
             border-radius: 0px;
+			
         }
 		
-		
+		.descr {
+			background-color: lightgrey; /* Dark green header */
+            color: black;
+			padding: 20px;
+            text-align: center;
+			font-weight: 300;
+			max-width: 800px; /* Limiting section width */
+            margin: 0 auto; /* Centering the section */
+		}
 		
 		section {
             padding: 20px;
@@ -57,7 +66,7 @@
 			max-width: 800px; /* Limiting section width */
             margin: 0 auto; /* Centering the section */
 			/*font-family: 'Courier New', monospace;*/
-			/*font-family: Helvetica, Arial, sans-serif;*/
+			font-family: Helvetica, Arial, sans-serif;
 		}
 		
 		h1 {
@@ -65,17 +74,17 @@
 		}
 		
 		h1, h2, h3, h4, h5, h6 {
-			font-family: garamond, serif;
-			/*font-family: Helvetica, Arial, sans-serif;*/
+			/*font-family: garamond, serif;*/
+			font-family: Helvetica, Arial, sans-serif;
 			font-weight: 700;
 			margin: 15px auto;
 			color: #1B2836;
 		}
 		
-		header h1, header h3 {
+		header h2, header h5 {
 			color: white;
-			font-family: garamond, serif;
-			margin: 20px auto;
+			/*font-family: garamond, serif;*/
+			margin: 15px auto;
 		}
 		
 		.navbar {
@@ -88,8 +97,8 @@
 		/* Style the buttons */
 		.navbar button {
 			/*font-family: 'Courier New', monospace;*/
-			/*font-family: Helvetica, Arial, sans-serif;*/
-			font-family: garamond, serif;
+			font-family: Helvetica, Arial, sans-serif;
+			/*font-family: garamond, serif;*/
 			font-weight: 400;
 			display: inline-block;
 			color: white;
@@ -126,6 +135,13 @@
 		  max-width: 1000px;
 		}
 		
+		.header-line {
+		  border: none;
+		  border-top: 1px solid white;
+		  margin: 20px auto;
+		  max-width: 300px;
+		}
+		
 		.title-image {
 			max-width: 100%;
 			margin: 5px auto;
@@ -148,9 +164,10 @@
 		<img src="header_image.png" alt="Vienna top view">
 		<br> </br>
 		-->
-        <h1>Johannes Brunner</h1>
-		<h3>FROM TRAFFIC SIMULATION<br>TO URBAN DESIGN</h3>
-	
+		<hr class="header-line">
+		<h2>FROM TRAFFIC SIMULATION<br>TO URBAN DESIGN</h2>
+		<hr class="header-line">
+		<h2>by Johannes Brunner</h2>
 	<!-- Aktuell noch nicht -->
 	<!--<hline></hline>-->
 	<!--
@@ -168,7 +185,10 @@
 		*** SHORT BIO ***
 		*****************
 		-->
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer</p>
+		<div class="descr">
+			<img src="images/profilbild_klein.jpg" alt="Profilbild" class="header-image">
+			<p>Johannes Brunner is an urban planner and traffic engineer based in Vienna, Austria.<br>This website highlights a selection of his recent works and ideas.</p>
+        </div class="descr">
         
 		
 		
