@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johannes Brunner</title>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         /* Reset CSS */
         * {
@@ -30,12 +31,17 @@
 			font-weight: 300;
 			max-width: 1000px; /* Limiting section width */
             margin: 0 auto; /* Centering the section */
+			
         }
 		
 		header img {
-            max-width: 100%;
+			max-width: 100%;
             border-radius: 0px;
         }
+		
+		header h1, header h4 {
+			font-family: 'Courier New', monospace;
+		}
 		
 		section {
             padding: 20px;
@@ -51,12 +57,19 @@
             text-align: center;
 			max-width: 1000px; /* Limiting section width */
             margin: 0 auto; /* Centering the section */
+			font-family: 'Courier New', monospace;
 		}
 		
 		h1 {
 			font-weight: 400; /* Change the font weight (e.g., 400 for normal, 700 for bold) */
 		}
 		
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Courier New', monospace;
+			font-weight: 700;
+			margin: 15px auto
+		}
+		-->
 		.navbar {
 			overflow: hidden;
 			padding-top: 20px;
@@ -65,7 +78,7 @@
 
 		/* Style the buttons */
 		.navbar button {
-			font-family: garamond, serif;
+			font-family:'Courier New', monospace;
 			display: inline-block;
 			color: white;
 			text-align: center;
@@ -84,6 +97,37 @@
 			background-color: #EFE9E7;
 			color: black;
 		}
+		
+		summary {
+			cursor: pointer;
+			font-weight: bold;
+		}
+		
+		details[open] summary {
+			color: #aaa;
+		}
+		
+		.expander-line {
+		  border: none;
+		  border-top: 1px solid #1B2836;
+		  margin: 20px auto;
+		  max-width: 1000px;
+		}
+		
+		.title-image {
+			max-width: 100%;
+			margin: 5px auto;
+		}
+		
+		p {
+			margin: 10px auto;
+		}
+		
+		.spaced-br {
+			display: block;
+			margin-bottom: 10px; /* adjust spacing here */
+		}
+		
     </style>
 </head>
 <body>
@@ -93,7 +137,7 @@
 		<br> </br>
 		-->
         <h1>Johannes Brunner</h1>
-		<p><br>From Urban Design to Traffic Simulation</p>
+		<h4>FROM TRAFFIC SIMULATION<br>TO URBAN DESIGN</h4>
 	
 	<!-- Aktuell noch nicht -->
 	<!--<hline></hline>-->
@@ -106,10 +150,87 @@
 	</div>
 	-->
     </header>
-    <section class="content">
+    <section>
+		<!--
+		*****************
+		*** SHORT BIO ***
+		*****************
+		-->
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer</p>
         
+		
+		
+		<!--
+		****************
+		*** CONTENTS ***
+		****************
+		-->
+		
+		
+		
+		<hr class="expander-line">
+		<h3>Shared Space: A ‘One-Size-Fits-All’-Solution for Crowded Cities?</h3>
+		<img src="images/JPEG_title_image_orange_tiny.jpg" alt="Shared Space" class="title-image">
+		<p>
+			Can streets be both social spaces and smooth traffic corridors? This project dives into the complex dance between pedestrians and cyclists in shared spaces — urban environments without curbs or clear rules — using data-driven simulation to uncover how design, density, and behavior shape traffic flow, safety, and comfort. By bridging human behavior, traffic modeling, and urban design, the research aims to deliver smart, scalable design principles for tomorrow’s people-friendly streets.
+		</p>
+		<details>
+		  <summary>
+			Show more
+		  </summary>
+			<p>
+			  This project investigates the traffic performance of shared street space. Shared space schemes aim to improve urban public life while maintaining streets’ role as mobility infrastructure (see also Hamilton-Baillie, 2008a; Hamilton-Baillie, 2008b). By removing strict physical segregation between traffic modes, these designs promote interactions between users, shifting away from rule-based behaviors. In addition, shared spaces often include design elements such as plantings and seating to foster social activity and encouraging traffic calming, creating pleasant public environments that encourage social activity. While shared spaces promise to create pedestrian-friendly, vibrant streets and improve neighborhood life by reducing traffic speeds (see also Appleyard, 1980), their effects on traffic flow, safety, and user comfort remain insufficiently understood. As more cities implement shared space schemes worldwide, a critical question arises: can fully shared spaces serve as a universal solution for traffic calming, or do their impacts depend on context-specific conditions? <br class="spaced-br">
+			  
+			  Existing studies suggest that user perceptions of safety and comfort vary when traffic modes mix freely (see also Kaparias et al., 2012; Zhang et al., 2023). Additionally, it is still underdeveloped how the absence of structure in shared space affects traffic flow. While several microscopic simulation models have been developed for shared space (e.g. Anvari et al., 2015; Schönauer, 2017; Slack-Smith et al., 2024), they primarily focus on the individual-level movement rather than the aggregate dynamics of mixed traffic under high-density conditions. Moreover, current models lack a quality-of-service assessment that integrates comfort, safety, and efficiency – factors that are critical for urban mobility planning. In urban planning practice, shared spaces are designed using a mix of guidelines, heuristics, and empirical knowledge, yet a systematic understanding of how traffic dynamics influence shared space performance is still lacking. <br class="spaced-br">
+			  
+			  This PhD research seeks to bridge the gap between individual user behavior, aggregate traffic characteristics, and shared space design principles. Focusing on pedestrians and cyclists, the project investigates: <br class="spaced-br">
+				(1)	How do cyclists navigate through high-density pedestrian environments, and how do their interactions with individuals and groups shape traffic flow?<br>
+				(2)	How does the mixing of multi-directional pedestrian and cyclist flows impact shared space efficiency and user experience? <br>
+				(3)	What design principles can optimize shared space performance across different cyclist-to-pedestrian volume ratios? <br class="spaced-br">
+			  
+			  The project follows a data-driven modeling approach that involves the microscopic simulation of agents in shared space scenarios (similar to Dias et al., 2018; Guo et al., 2020; Wang et al., 2024). The data collection includes empirical observations of microscopic characteristics as well as a stated preference survey that inform the decision-making in the model. The model is developed – and validated using the data sources – to test shared space scenarios under different user compositions and densities. For the representation of quality of service, a set of performance indicators (KPIs) is established, considering aspects of traffic flow and comfort of individual agents (see also Ewing and Handy, 2009; Cepolina et al., 2018; Nikiforiadis et al., 2020). Based on the KPIs, the model is used to systematically evaluate infrastructural configurations and derive shared space design principles.<br class="spaced-br">
+			  
+			  By bridging individual user behavior, aggregate traffic dynamics, and urban design principles, this research will generate quantitative insights for optimizing street configurations. Building on behavioral insights and methodological contributions, this project aims to provide policymakers and planners with guidelines and tools supporting the successful implementation of shared street spaces.
+			</p>
+			<h3>References</h3>
+			<p>
+			Anvari, B., M.G.-H. Bell, A. Sivakumar and W.Y. Ochieng (2015) Modelling shared space users via rule-based social force model, Transportation Research Part C: Emerging Technologies, 51, 83-103.<br class="spaced-br">
+			
+			Appleyard, D. (1980) Livable streets: Protected neighborhoods? The ANNALS of the American Academy of Political and Social Science, 451, 106-117.<br class="spaced-br">
+			
+			Cepolina, E.M., F. Menchini and P. Gonzales Rojas (2018) Level of service of pedestrian facilities: Modelling human comfort perception in the evaluation of pedestrian behaviour patterns, Transportation Research Part F: Traffic Psychology and Behaviour, 58, 365-381.<br class="spaced-br">
+			
+			Dias, C., H. Nishiuchi, S. Hyoudo and T. Todoroki (2018) Simulating interactions between pedestrians, segway riders and cyclists in shared spaces using social force model, Transportation Research Procedia, 34, 91-98.<br class="spaced-br">
+			
+			Ewing, R. and S. Handy (2009) Measuring the unmeasurable: Urban design qualities related to walkability, Journal of Urban Design, 14 (1), 65-84.<br class="spaced-br">
+			
+			Guo, N., R. Jiang, S.C. Wong, Q.Y. Hao, S.Q. Xue, Y. Xiao and C.Y. Wu (2020) Modeling the interactions of pedestrians and cyclists in mixed flow conditions in uni- and bidirectional flows on a shared pedestrian-cycle road, Transportation Research Part B: Methodological, 139, 259-284.<br class="spaced-br">
+			
+			Hamilton-Baillie, B. (2008a) Shared space: Reconciling people, places and traffic, Built Environment, 34 (2), 161-181.<br class="spaced-br">
+			
+			Hamilton-Baillie, B. (2008b) Towards shared space, Urban Design International, 13 (2), 130-138. <br class="spaced-br">
+			
+			Kaparias, I., M.G.-H. Bell, A. Miri, C. Chan and B. Mount (2012) Analysing the perceptions of pedestrians and drivers to shared space, Transportation Research Part F: Traffic Psychology and Behaviour, 15 (3), 297-310.<br class="spaced-br">
+			
+			Nikiforiadis, A., S. Basbas and M.I. Garyfalou (2020) A methodology for the assessment of pedestrians-cyclists shared space level of service, Journal of Cleaner Production, 254, 120172.<br class="spaced-br">
+			
+			Schönauer, R. (2017) A Microscopic Traffic Flow Model for Shared Space, Doctoral Thesis, Graz University of Technology.<br class="spaced-br">
+			
+			Slack-Smith, D., K.P. Wijayaratna and M. Zeibots (2024) The development of modeling shared spaces to support sustainable transport systems: Introduction to the Integrated Pedestrian–Vehicle Model (IPVM), Sustainability, 16 (10), 4227.<br class="spaced-br">
+			
+			Wang, W., H. Zhou, J.T.Y. Lo, S.M. Lo and Y. Wang (2024) A modified social force model for pedestrian-bicycle mixed flows and its application on evaluating the conflict risk in shared roads, Physica A: Statistical Mechanics and its Applications, 643, 129788.<br class="spaced-br">
+			
+			Zhang, C., B. Du, Z. Zheng and J. Shen (2023) Space sharing between pedestrians and micro-mobility vehicles: A systematic review, Transportation Research Part D: Transport and Environment, 116, 103629.<br class="spaced-br">
+			</p>
+		</details>
+		
+
+		
     </section>
+	
+	
+	
+	
     <footer>
         <p>&copy; Johannes Brunner | 2025 </p>
 		<div class="navbar">
